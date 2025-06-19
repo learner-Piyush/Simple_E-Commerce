@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   productList.addEventListener("click", (e) => {
-    if (e.target.tagName === "BUTTON") {
+    if (e.target.closest("button") {
       const productID = parseInt(e.target.getAttribute("data-id"));
       const product = products.find((p) => p.id === productID);
       addToCart(product);
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   cartItems.addEventListener("click", (e) => {
-    if (e.target.tagName === "BUTTON") {
+    if (e.target.closest("button") {
       const index = parseInt(e.target.getAttribute("data-index"));
       removeFromCart(index);
     }
