@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
     productDiv.classList.add("product");
     productDiv.innerHTML = `<span>${product.name} - ₹${product.price.toFixed(2)}</span>
         <button data-id="${product.id}">
-        <img src="../Image Folder/icons8-add-to-cart-50.png" alt="">
+        <img src="./icons8-add-to-cart-50.png" alt="">
         Add to Cart
         </button>`;
     productList.appendChild(productDiv);
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
         cartItem.classList.add("item");
         cartItem.innerHTML = `<span>${item.name} - ₹${item.price.toFixed(2)}</span>
         <button data-index="${index}">
-        <img src="../Image Folder/icons8-delete-48.png" alt="">
+        <img src="./icons8-delete-48.png" alt="">
         Remove
         </button>`;
         cartItems.appendChild(cartItem);
