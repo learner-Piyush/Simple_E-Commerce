@@ -11,3 +11,10 @@ Logic is simple if you open and look at the JS file.
 And yeah I have added icons for buttons.
 
 Let me know if you like the design and experience as well
+
+# Assignment 1
+
+This Project had an assignment that upon refreshing the site, our code functionality doesn't get affected.
+By introducing a new function which save our activity in local storage.
+Ofcourse this function should be called when "Add to Cart" and "Checkout" been clicked along with render function.
+I also make sure that upon refreshing the page, the UI also get render accordingly.
