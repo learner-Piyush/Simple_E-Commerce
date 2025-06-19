@@ -18,3 +18,8 @@ This Project had an assignment that upon refreshing the site, our code functiona
 By introducing a new function which save our activity in local storage.
 Ofcourse this function should be called when "Add to Cart" and "Checkout" been clicked along with render function.
 I also make sure that upon refreshing the page, the UI also get render accordingly.
+
+# Assignment 2
+
+This Project had an another assignment to introduce a "Remove" button on indivisual cart items.
+On clicking the button, the item gets remove from the cart and the total amount also gets reduce as well.
