@@ -88,6 +88,11 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   checkoutButton.addEventListener("click", () => {
+    if (cart.length === 0) {
+      alert("First add an item to the cart");
+      return;
+    }
+    
     cart.length = 0;
     alert("Checkout Successfully!");
     renderCart();
